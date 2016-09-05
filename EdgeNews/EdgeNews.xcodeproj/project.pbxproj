@@ -181,9 +181,6 @@
 		34C1E4701C09E22100965456 /* NextViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 34C1E46F1C09E22100965456 /* NextViewController.m */; };
 		34C983491C0C00330080D7BD /* ba@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 34C983481C0C00330080D7BD /* ba@2x.png */; };
 		34ECE5EB1C1EF5BF00DCBF82 /* red.png in Resources */ = {isa = PBXBuildFile; fileRef = 34ECE5EA1C1EF5BF00DCBF82 /* red.png */; };
-		34FCC6031C196CC700BB539A /* launchImage.png in Resources */ = {isa = PBXBuildFile; fileRef = 34FCC6001C196CC700BB539A /* launchImage.png */; };
-		34FCC6041C196CC700BB539A /* launchImage@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 34FCC6011C196CC700BB539A /* launchImage@2x.png */; };
-		34FCC6051C196CC700BB539A /* launchImage@3x.png in Resources */ = {isa = PBXBuildFile; fileRef = 34FCC6021C196CC700BB539A /* launchImage@3x.png */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXBuildRule section */
@@ -496,9 +493,6 @@
 		34C1E46F1C09E22100965456 /* NextViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = NextViewController.m; sourceTree = "<group>"; };
 		34C983481C0C00330080D7BD /* ba@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "ba@2x.png"; sourceTree = "<group>"; };
 		34ECE5EA1C1EF5BF00DCBF82 /* red.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = red.png; sourceTree = "<group>"; };
-		34FCC6001C196CC700BB539A /* launchImage.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = launchImage.png; sourceTree = "<group>"; };
-		34FCC6011C196CC700BB539A /* launchImage@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "launchImage@2x.png"; sourceTree = "<group>"; };
-		34FCC6021C196CC700BB539A /* launchImage@3x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "launchImage@3x.png"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -1052,9 +1046,6 @@
 		34AEA3D31C02B7DB00A8B6B6 = {
 			isa = PBXGroup;
 			children = (
-				34FCC6001C196CC700BB539A /* launchImage.png */,
-				34FCC6011C196CC700BB539A /* launchImage@2x.png */,
-				34FCC6021C196CC700BB539A /* launchImage@3x.png */,
 				3436B5D11C0C217D009AE1C6 /* AVFoundation.framework */,
 				342F0D601C09C1E30045FFEF /* libsqlite3.tbd */,
 				34AEA3DE1C02B7DB00A8B6B6 /* EdgeNews */,
@@ -1241,7 +1232,6 @@
 				34A09A5C1C0E88C7005F1550 /* quitquanping.png in Resources */,
 				34AFEE3D1C16625000363EE6 /* shipin.png in Resources */,
 				3475BCE31C0B2D3D00F604EC /* shijian@2x.png in Resources */,
-				34FCC6031C196CC700BB539A /* launchImage.png in Resources */,
 				34A8675C1C0D9F1200A10A68 /* quanping.png in Resources */,
 				343925791C14375D00AEB05B /* mydatabase.sqlite in Resources */,
 				3402DDAD1C0D2BD700DABD91 /* VideoPlayCell.xib in Resources */,
@@ -1254,7 +1244,6 @@
 				341819921C103756009783C4 /* RadioCollectionViewCell.xib in Resources */,
 				34A09A5F1C0EB2B9005F1550 /* pause.png in Resources */,
 				34ECE5EB1C1EF5BF00DCBF82 /* red.png in Resources */,
-				34FCC6041C196CC700BB539A /* launchImage@2x.png in Resources */,
 				34A867581C0D995200A10A68 /* 112@3x.png in Resources */,
 				348402CC1C130A7D00286801 /* 3.png in Resources */,
 				341819AA1C1067E7009783C4 /* DetailCell.xib in Resources */,
@@ -1266,7 +1255,6 @@
 				34AEA3ED1C02B7DB00A8B6B6 /* Images.xcassets in Resources */,
 				34AFEE421C16625000363EE6 /* xinwen@2x.png in Resources */,
 				34A8676D1C0DCF8A00A10A68 /* left@2x.png in Resources */,
-				34FCC6051C196CC700BB539A /* launchImage@3x.png in Resources */,
 				341819A51C10655F009783C4 /* TitleListCell.xib in Resources */,
 				34A8676B1C0DCF8A00A10A68 /* play1@2x.png in Resources */,
 				34A8676E1C0DCF8A00A10A68 /* button@2x.png in Resources */,
@@ -1524,7 +1512,7 @@
 				INFOPLIST_FILE = EdgeNews/Info.plist;
 				IPHONEOS_DEPLOYMENT_TARGET = 7.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
-				PRODUCT_BUNDLE_IDENTIFIER = com.lanou33.Bruce.EdgeNews123;
+				PRODUCT_BUNDLE_IDENTIFIER = com.Bruce.EdgeNews123;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				PROVISIONING_PROFILE = "9cd4e014-d74a-49be-935a-a03bb954c0b6";
 				SHARED_PRECOMPS_DIR = "$(CACHE_ROOT)/SharedPrecompiledHeaders";
@@ -1545,7 +1533,7 @@
 				INFOPLIST_FILE = EdgeNews/Info.plist;
 				IPHONEOS_DEPLOYMENT_TARGET = 7.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
-				PRODUCT_BUNDLE_IDENTIFIER = com.lanou33.Bruce.EdgeNews123;
+				PRODUCT_BUNDLE_IDENTIFIER = com.Bruce.EdgeNews123;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				PROVISIONING_PROFILE = "9cd4e014-d74a-49be-935a-a03bb954c0b6";
 				SHARED_PRECOMPS_DIR = "$(CACHE_ROOT)/SharedPrecompiledHeaders";

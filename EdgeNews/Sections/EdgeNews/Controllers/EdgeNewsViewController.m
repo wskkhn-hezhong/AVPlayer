@@ -2,10 +2,6 @@
 //  EdgeNewsViewController.m
 //  EdgeNews
 //
-//  Created by lanouhn on 15/11/23.
-//  Copyright © 2015年 lanouhn. All rights reserved.
-//
-
 
 #import "EdgeNewsViewController.h"
 #import "AFNetworking.h"

@@ -2,9 +2,6 @@
 //  PlayMp3Model.m
 //  EdgeNews
 //
-//  Created by lanouhn on 15/12/4.
-//  Copyright © 2015年 lanouhn. All rights reserved.
-//
 
 #import "PlayMp3Model.h"
 

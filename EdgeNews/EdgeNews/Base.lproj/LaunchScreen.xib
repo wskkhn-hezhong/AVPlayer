@@ -1,8 +1,8 @@
 <?xml version="1.0" encoding="UTF-8" standalone="no"?>
-<document type="com.apple.InterfaceBuilder3.CocoaTouch.XIB" version="3.0" toolsVersion="9060" systemVersion="14F27" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" launchScreen="YES" useTraitCollections="YES">
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.XIB" version="3.0" toolsVersion="10117" systemVersion="15G31" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" launchScreen="YES" useTraitCollections="YES">
     <dependencies>
         <deployment identifier="iOS"/>
-        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="9051"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="10117"/>
     </dependencies>
     <objects>
         <placeholder placeholderIdentifier="IBFilesOwner" id="-1" userLabel="File's Owner"/>
@@ -11,23 +11,21 @@
             <rect key="frame" x="0.0" y="0.0" width="480" height="597"/>
             <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
             <subviews>
-                <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="launchImage.png" translatesAutoresizingMaskIntoConstraints="NO" id="voY-te-deJ">
+                <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="TmL-xm-ROZ">
                     <rect key="frame" x="0.0" y="0.0" width="480" height="597"/>
-                </imageView>
+                    <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                </view>
             </subviews>
             <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="calibratedWhite"/>
             <constraints>
-                <constraint firstAttribute="trailing" secondItem="voY-te-deJ" secondAttribute="trailing" id="8S5-sn-ilh"/>
-                <constraint firstAttribute="bottom" secondItem="voY-te-deJ" secondAttribute="bottom" id="J8b-x7-lOF"/>
-                <constraint firstItem="voY-te-deJ" firstAttribute="leading" secondItem="iN0-l3-epB" secondAttribute="leading" id="jTQ-Op-qtH"/>
-                <constraint firstItem="voY-te-deJ" firstAttribute="top" secondItem="iN0-l3-epB" secondAttribute="top" id="kWE-KC-gEE"/>
+                <constraint firstAttribute="trailing" secondItem="TmL-xm-ROZ" secondAttribute="trailing" id="EF3-DC-eZq"/>
+                <constraint firstAttribute="bottom" secondItem="TmL-xm-ROZ" secondAttribute="bottom" id="KOW-TP-oxI"/>
+                <constraint firstItem="TmL-xm-ROZ" firstAttribute="top" secondItem="iN0-l3-epB" secondAttribute="top" id="cpO-Lw-H3N"/>
+                <constraint firstItem="TmL-xm-ROZ" firstAttribute="leading" secondItem="iN0-l3-epB" secondAttribute="leading" id="oeO-kZ-bcS"/>
             </constraints>
             <nil key="simulatedStatusBarMetrics"/>
             <freeformSimulatedSizeMetrics key="simulatedDestinationMetrics"/>
             <point key="canvasLocation" x="574" y="488.5"/>
         </view>
     </objects>
-    <resources>
-        <image name="launchImage.png" width="320" height="568"/>
-    </resources>
 </document>

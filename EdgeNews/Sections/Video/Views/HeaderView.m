@@ -2,9 +2,6 @@
 //  HeaderView.m
 //  EdgeNews
 //
-//  Created by lanouhn on 15/12/1.
-//  Copyright (c) 2015年 lanouhn. All rights reserved.
-//
 
 #import "HeaderView.h"
 #import "AFNetworking.h"

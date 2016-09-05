@@ -2,10 +2,6 @@
 //  NextViewController.m
 //  EdgeNews
 //
-//  Created by lanouhn on 15/11/28.
-//  Copyright (c) 2015年 lanouhn. All rights reserved.
-//
-
 #import "NextViewController.h"
 #import "AFNetworking.h"
 #import "HeadModel.h"
